@@ -3,7 +3,7 @@ import React from "react";
 import { BsArrowUpRight } from "react-icons/bs";
 
 const Card = ({ items }) => {
-  console.log(items);
+  // console.log(items);
   return (
     <div className="my-10">
       <section className="w-[586px] h-full relative p-[16px] rounded-md shadow-box">
