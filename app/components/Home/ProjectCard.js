@@ -15,7 +15,7 @@ const ProjectCard = () => {
 
   const handleNext = () => {
     const lastIndex = cards.length - 1;
-    const newIndex = currentIndex === lastIndex ? 0 : currentIndex + 1;
+    const newIndex = currentIndex === lastIndex ? 0 : currentIndex + 2;
     setCurrentIndex(newIndex);
   };
 
