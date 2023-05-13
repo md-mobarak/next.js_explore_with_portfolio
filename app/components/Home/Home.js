@@ -1,7 +1,12 @@
+"use client";
 import React from "react";
 import Banner from "./Banner";
 import ExperienceCard from "./ExperienceCard";
 import Qualification from "./Qualification";
+import MyProject from "./MyProject";
+import ProjectCard from "./ProjectCard";
+import DegitalService from "./DegitalService";
+import Feedback from "./Feedback";
 
 const Home = () => {
   return (
@@ -9,6 +14,10 @@ const Home = () => {
       <Banner></Banner>
       <ExperienceCard></ExperienceCard>
       <Qualification></Qualification>
+      <MyProject></MyProject>
+      <ProjectCard></ProjectCard>
+      <DegitalService></DegitalService>
+      <Feedback></Feedback>
     </div>
   );
 };
