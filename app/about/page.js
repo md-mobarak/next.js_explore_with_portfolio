@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "../components/shared/Header";
 
 const page = () => {
   return (
     <div>
-      <h1>About page</h1>
+      <Header></Header>
+      <h1>ABout Page</h1>
     </div>
   );
 };
