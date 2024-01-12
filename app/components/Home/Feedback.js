@@ -1,16 +1,15 @@
-import React from "react";
 import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
 } from "react-icons/bs";
 const Feedback = () => {
   return (
-    <div className="lg:px-12 my-5">
+    <div className="px-12  my-5">
       <div className="lg:grid grid-cols-2 ">
         <section className="lg:w-[577px] lg:h-[570px]">
           <img
             className="w-full h-full"
-            src="https://i.ibb.co/Fz7fKnY/Group-2766.png"
+            src="https://i.ibb.co/kyZL4Bf/Group-2766.png"
             alt=""
           />
         </section>

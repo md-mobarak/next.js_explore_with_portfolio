@@ -1,11 +1,8 @@
-
-import React from "react";
-
 const Communicate = () => {
   return (
     <div className="flex justify-center items-center my-16">
       <div className="lg:w-[1080px] relative lg:h-[481px]">
-        <img src="https://i.ibb.co/Fg0XP4F/Group-384-1.png" alt="" />
+        <img src="https://i.ibb.co/GQmtJKR/Group-384-1.png" alt="" />
         <div className="absolute lg:top-40 lg:left-44">
           <div className="text-center">
             <h1 className="text-[48px]  font-bold text-white">

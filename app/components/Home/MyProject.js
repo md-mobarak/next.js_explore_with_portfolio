@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import { BsArrowUpRight } from "react-icons/bs";
 const MyProject = () => {
@@ -23,10 +22,11 @@ const MyProject = () => {
       <h2 className="font-semibold mb-[75px] text-[40px]">
         Our esteemed portfolio of accomplishments
       </h2>
-      <div className="grid grid-cols-3 gap-[20px]">
-        <section className="w-[386px] h-[335] relative p-[16px] rounded-md shadow-box">
+      <div className="lg:grid lg:grid-cols-3 gap-[20px] flex flex-wrap justify-center items-center">
+        <section className="lg:w-[386px] w-full h-full lg:h-[335] relative p-[16px] rounded-md shadow-box">
           <Image
-            src="https://i.ibb.co/616pm0c/Rectangle-13.png"
+            className="w-full h-full lg:w-[354px] lg:h-[303px]"
+            src="https://i.ibb.co/m5dPCTn/Rectangle-13.png"
             width={354}
             height={303}
           />
@@ -38,48 +38,52 @@ const MyProject = () => {
                 <small> App Design</small>
               </section>
               <section>
-                {" "}
                 <BsArrowUpRight className="text-3xl font-semibold"></BsArrowUpRight>
               </section>
             </div>
           </button>
         </section>
-        <section className="w-[386px] h-[335] p-[16px] rounded-md shadow-box">
+        <section className="lg:w-[386px] w-full h-full lg:h-[335] p-[16px] rounded-md shadow-box">
           <Image
-            src="https://i.ibb.co/N6sb8vD/Rectangle-13-6.png"
+            className="w-full h-full lg:w-[354px] lg:h-[303px]"
+            src="https://i.ibb.co/51Dx4bY/Rectangle-13-2.png"
             alt="Rectangle-13-6"
             width={354}
             height={303}
           />
         </section>
-        <section className="w-[386px] h-[335] p-[16px] rounded-md shadow-box">
+        <section className="lg:w-[386px] w-full h-full lg:h-[335] p-[16px] rounded-md shadow-box">
           <Image
-            src="https://i.ibb.co/0yrmzdv/Rectangle-13-3.png"
+            className="w-full h-full lg:w-[354px] lg:h-[303px]"
+            src="https://i.ibb.co/YkSkTqQ/Rectangle-13-4.png"
             alt="Rectangle-13-3"
             width={354}
             height={303}
           />
         </section>
-        <section className="w-[386px] h-[335] p-[16px] rounded-md shadow-box">
+        <section className="lg:w-[386px] w-full h-full lg:h-[335] p-[16px] rounded-md shadow-box">
           <Image
-            src="https://i.ibb.co/tQyB7S7/Rectangle-13-4.png"
+            className="w-full h-full lg:w-[354px] lg:h-[303px]"
+            src="https://i.ibb.co/khB9NDX/Rectangle-13-3.png"
             alt="Rectangle-13-4"
             width={354}
             height={303}
           />
         </section>
-        <section className="w-[386px] h-[335] p-[16px] rounded-md shadow-box">
+        <section className="lg:w-[386px] w-full h-full lg:h-[335] p-[16px] rounded-md shadow-box">
           <Image
-            src="https://i.ibb.co/s2hxCmp/Rectangle-13-5.png"
+            className="w-full h-full lg:w-[354px] lg:h-[303px]"
+            src="https://i.ibb.co/mtXDVHD/Rectangle-13-6.png"
             alt="Rectangle-13-5"
             width={354}
             height={303}
           />
         </section>
-        <section className="w-[386px] h-[335] p-[16px] rounded-md shadow-box">
+        <section className="lg:w-[386px] w-full h-full lg:h-[335] p-[16px] rounded-md shadow-box">
           <Image
-            src="https://i.ibb.co/tYhrdL7/Rectangle-13-1.png"
+            src="https://i.ibb.co/CKcc0TR/Rectangle-13-5.png"
             alt="Rectangle-13-5"
+            className="w-full h-full lg:w-[354px] lg:h-[303px]"
             width={354}
             height={303}
           />

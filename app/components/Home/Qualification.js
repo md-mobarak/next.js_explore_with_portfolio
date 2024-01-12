@@ -1,14 +1,12 @@
-import React from "react";
-
 const Qualification = () => {
   const blue = "#3638C8";
   return (
-    <div>
-      <div className="grid grid-cols-2 gap-10 px-[60px]">
-        <section className="w-[505px] h-[834px] ">
+    <div className="my-16 lg:my-10">
+      <div className="lg:grid grid-cols-2 gap-10 px-[60px]">
+        <section className="lg:w-[505px] lg:h-[834px]  flex justify-center items-center lg:block">
           <img
             className="mt-[-90px]"
-            src="https://i.ibb.co/Kw6Vjpq/Group-10767.png"
+            src="https://i.ibb.co/YddLbD8/Group-10767.png"
             alt="Group-10767"
           />
         </section>
@@ -120,26 +118,26 @@ const Qualification = () => {
           </h3>
 
           <div className="grid grid-cols-5 gap-x-4">
-            <img src="https://i.ibb.co/w7y1L79/Group-2712.png" alt="" />
-            <img src="https://i.ibb.co/RBcgMQ6/Group-2731.png" alt="" />
-            <img src="https://i.ibb.co/2Fw09jC/Group-2732.png" alt="" />
+            <img src="https://i.ibb.co/NyJbqsk/Group-2712.png" alt="" />
+            <img src="https://i.ibb.co/TPbvsY6/Group-2731.png" alt="" />
+            <img src="https://i.ibb.co/0FC89RK/Group-2732.png" alt="" />
             <img
-              src="https://i.ibb.co/0VdJrSj/Group-2733.png"
+              src="https://i.ibb.co/108vTvB/Group-2737.png"
               alt="Group-2733"
             />
-            <img src="https://i.ibb.co/BLDmhng/Group-10777.png" alt="" />
+            <img src="https://i.ibb.co/8jLtyxx/Group-10777.png" alt="" />
           </div>
           <div className="grid grid-cols-5 gap-x-4 mt-4">
             <img
-              src="https://i.ibb.co/f2T0d1F/Group-2734.png"
+              src="https://i.ibb.co/Snm6223/Group-2734.png"
               alt="Group-2734"
             />
-            <img src="https://i.ibb.co/xSN2Xhn/Group-2735.png" alt="" />
+            <img src="https://i.ibb.co/M99t1Nr/Group-2735.png" alt="" />
           </div>
         </section>
       </div>
       <div className="pl-[35px]">
-        <img src="https://i.ibb.co/0GNJZTX/Vector-1.png" alt="" />
+        <img src="https://i.ibb.co/jzB7Bpq/Vector-1.png" alt="" />
       </div>
     </div>
   );
